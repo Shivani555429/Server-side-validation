@@ -1,0 +1,42 @@
+<style>
+#myForm {
+    max-width: 10px;
+    margin: 5px auto;
+    padding: 4px;
+    border: 1px solid #3d8bb2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #myForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #myForm input[type="text"], #myForm input[type="email"] {
+    width: 10%;
+    padding: 4px;
+    margin-bottom: 6px;
+    border: 1px solid #df8787;
+  }
+  #myForm input[type="text"], #myForm input[type="contact"] {
+    width: 10%;
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #bde081;
+  }
+
+
+  #myForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #myForm input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  </style>
